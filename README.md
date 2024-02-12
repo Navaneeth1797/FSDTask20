@@ -16,9 +16,14 @@ This is an online store application built with React and Redux. It allows users 
 
 ## Folder Structure
  ├── src/
+ 
   │   ├── components/        # React components
+  
   │   ├── redux/             # Redux store setup and slices
+  
   │   └── App.js             # Main application component
+  
   │   └── products           # Initial databse for products
+  
   │
   
