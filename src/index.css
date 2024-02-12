@@ -1,0 +1,27 @@
+/* CSS styles for the .card-container class */
+.card-container{
+  /* Font styles */
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  /* Color styles */
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);/* Text color */
+    background-color: #71a2b1 !important;
+      /* Background color */
+  /* Text rendering and appearance */
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+/* Hover effect for the .card-container class */
+.card-container:hover {
+  border-radius: 35px !important;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+/* CSS styles for the .container class */
+.container{
+  background-color: beige;/* Background color for the container */
+  }
