@@ -1,8 +1,24 @@
 # React + Vite
+ # Cart Page using redux
+ 
+## Description
+This is an online store application built with React and Redux. It allows users to view and purchase various products available in the store. Users can add products to their cart and update quantities.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- View product listings with details such as title, description, price, and stock availability.
+- Add products to the cart.
+- Update product quantities in the cart.
+- Calculate total quantity and amount in the cart.
 
-Currently, two official plugins are available:
+## Technologies Used
+- React
+- Redux
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Folder Structure
+ ├── src/
+  │   ├── components/        # React components
+  │   ├── redux/             # Redux store setup and slices
+  │   └── App.js             # Main application component
+  │   └── products           # Initial databse for products
+  │
+  
